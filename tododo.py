@@ -129,7 +129,6 @@ def parse_arguments():
 # Main Function
 def main():
     parser = argparse.ArgumentParser(description='CLI To-Do List App')
-    parser.add_argument('-h', '--help', action='help', help='Show this help message and exit')
     subparsers = parser.add_subparsers(dest='command')
 
     # Add Task
